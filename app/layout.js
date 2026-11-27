@@ -12,6 +12,9 @@ export const metadata = {
   description:
     "Shop laptops, desktop PCs, components and accessories at Delta Computers, Golden Town, Karachi.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+  verification: {
+    google: "5PCiNK1_YgSh2r7gl1N81unrkRTQbrUZkXKhD0Ioqjg",
+  },
   icons: {
     icon: "/favicon.ico",
     apple: "/icon-192.png",
