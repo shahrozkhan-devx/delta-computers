@@ -1,0 +1,41 @@
+{
+  "name": "delta-computers",
+  "version": "1.0.0",
+  "description": "Bilingual storefront and admin panel for Delta Computers, Karachi.",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "@supabase/ssr": "0.6.1",
+    "@supabase/supabase-js": "2.49.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.70.0",
+    "motion": "^14.11.1",
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "overrides": {
+    "@supabase/auth-js": "2.70.0",
+    "postcss": "^8.5.32"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.6.2",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.5.29",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.19"
+  }
+}

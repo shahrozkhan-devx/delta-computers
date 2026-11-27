@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+  <defs>
+    <linearGradient id="a" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#122b50"/>
+      <stop offset="1" stop-color="#07111e"/>
+    </linearGradient>
+    <radialGradient id="b">
+      <stop stop-color="#22d3ff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#22d3ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="760" fill="url(#a)"/>
+  <circle cx="650" cy="170" r="290" fill="url(#b)"/>
+  <path d="M288 244h324a22 22 0 0 1 22 22v226H266V266a22 22 0 0 1 22-22Z" fill="#07101b" stroke="#38bdf8" stroke-opacity=".7" stroke-width="8"/>
+  <path d="m222 522 449 0-55 40H277l-55-40Z" fill="#122849" stroke="#8beaff" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="450" cy="506" r="7" fill="#22d3ff"/>
+  <text x="450" y="630" fill="#dbeafe" font-family="sans-serif" font-size="24" letter-spacing="9" text-anchor="middle">DELTA COMPUTERS</text>
+</svg>
